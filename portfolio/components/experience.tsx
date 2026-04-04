@@ -145,7 +145,7 @@ export default function Experience() {
           <a
             className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
             aria-label="View Full Resume"
-            href="https://github.com/AhmedZaghl0ul"
+            href="https://drive.google.com/file/d/1NOmGol4pyIqAQMTgpK7716Dw8H-AbfYz/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
