@@ -54,6 +54,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+      </head>
       <body
         className={`${sora.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-body bg-slate-950 text-slate-200 antialiased selection:bg-teal-300 selection:text-teal-900`}
       >

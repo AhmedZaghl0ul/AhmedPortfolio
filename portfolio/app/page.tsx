@@ -35,7 +35,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-400 selection:bg-teal-300 selection:text-teal-900">
+    <div className="min-h-screen overflow-x-hidden bg-slate-950 text-slate-400 selection:bg-teal-300 selection:text-teal-900">
       <MouseFollower />
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
@@ -124,7 +124,7 @@ export default function Home() {
               </li>
             </ul>
           </header>
-          <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
+          <main id="content" className="pb-20 pt-24 lg:w-1/2 lg:pb-0 lg:py-24">
             <section
               id="about"
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
