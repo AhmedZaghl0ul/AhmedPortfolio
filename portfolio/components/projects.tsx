@@ -4,6 +4,21 @@ import { Badge } from "@/components/ui/badge";
 export default function Projects() {
   const projects = [
     {
+      title: "Liverpool Players Attendance",
+      description:
+        "A computer vision system that automatically tracks Liverpool FC player attendance by detecting and recognizing faces from Anfield arrival footage. Processes video frame-by-frame, matches faces against a pre-built encoding database, and generates an Excel attendance report with annotated output video.",
+      image: "/liverpool-attendance.png",
+      link: "https://github.com/AhmedZaghl0ul/Liverpool-Players-Attendance",
+      tags: [
+        "Face Recognition",
+        "OpenCV",
+        "dlib",
+        "NumPy",
+        "Pandas",
+        "Python",
+      ],
+    },
+    {
       title: "Real Time Drowsiness Detection",
       description:
         "A real-time computer vision system that detects driver drowsiness by analyzing eye behavior using facial landmarks and deep learning.",
