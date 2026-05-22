@@ -6,14 +6,16 @@ export default function Projects() {
     {
       title: "EmoVision - AI Engagement Detection",
       description:
-        "A hardware-agnostic Machine Learning system that analyzes spatial-temporal features from video feeds to classify user engagement (Engaged vs. Not Engaged). Reached 85% accuracy utilizing the EngageNet dataset. Decoupled architecture with a heavy ML inference microservice.",
-      image: "/images/projects/emovision-thumbnail.png",
+        "A graduation project tackling automatic engagement detection from video. The system ingests an uploaded video, extracts spatial and temporal features using computer vision, and classifies engagement state via a trained XGBoost model. Unlike industry 3D-CNN approaches requiring GPUs, EmoVision uses engineered features with a lightweight, hardware-agnostic pipeline deployable on standard CPU infrastructure.",
+      image: "/emovision.png",
       link: "https://github.com/AhmedZaghl0ul/EmoVision",
       tags: [
         "Python",
+        "XGBoost",
         "OpenCV",
         "FastAPI",
         "React",
+        "Flutter",
         "Supabase",
       ],
     },
