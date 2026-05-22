@@ -4,6 +4,20 @@ import { Badge } from "@/components/ui/badge";
 export default function Projects() {
   const projects = [
     {
+      title: "EmoVision - AI Engagement Detection",
+      description:
+        "A hardware-agnostic Machine Learning system that analyzes spatial-temporal features from video feeds to classify user engagement (Engaged vs. Not Engaged). Reached 85% accuracy utilizing the EngageNet dataset. Decoupled architecture with a heavy ML inference microservice.",
+      image: "/images/projects/emovision-thumbnail.png",
+      link: "https://github.com/AhmedZaghl0ul/EmoVision",
+      tags: [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "React",
+        "Supabase",
+      ],
+    },
+    {
       title: "Liverpool Players Attendance",
       description:
         "A computer vision system that automatically tracks Liverpool FC player attendance by detecting and recognizing faces from Anfield arrival footage. Processes video frame-by-frame, matches faces against a pre-built encoding database, and generates an Excel attendance report with annotated output video.",
