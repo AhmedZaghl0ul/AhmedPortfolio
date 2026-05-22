@@ -6,12 +6,11 @@ export default function Projects() {
     {
       title: "EmoVision - AI Engagement Detection",
       description:
-        "A graduation project tackling automatic engagement detection from video. The system ingests an uploaded video, extracts spatial and temporal features using computer vision, and classifies engagement state via a trained XGBoost model. Unlike industry 3D-CNN approaches requiring GPUs, EmoVision uses engineered features with a lightweight, hardware-agnostic pipeline deployable on standard CPU infrastructure.",
+        "A graduation project tackling automatic engagement detection from video. The system ingests an uploaded video, extracts spatial and temporal features using computer vision, and classifies engagement state via a trained XGBoost model.",
       image: "/emovision.png",
       link: "https://github.com/AhmedZaghl0ul/EmoVision",
       tags: [
         "Python",
-        "XGBoost",
         "OpenCV",
         "FastAPI",
         "NumPy",
@@ -24,7 +23,7 @@ export default function Projects() {
     {
       title: "Liverpool Players Attendance",
       description:
-        "A computer vision system that automatically tracks Liverpool FC player attendance by detecting and recognizing faces from Anfield arrival footage. Processes video frame-by-frame, matches faces against a pre-built encoding database, and generates an Excel attendance report with annotated output video.",
+        "A computer vision system that automatically tracks Liverpool FC player attendance by detecting and recognizing faces from Anfield arrival footage.",
       image: "/liverpool-attendance.png",
       link: "https://github.com/AhmedZaghl0ul/Liverpool-Players-Attendance",
       tags: [
